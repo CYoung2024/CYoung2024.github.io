@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>charles-young.com</title>
+    <subtitle>Just for fun</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://cyoung2024.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://cyoung2024.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-03-20T00:00:00+00:00</updated>
+    <id>https://cyoung2024.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>First Post</title>
+        <published>2025-03-20T00:00:00+00:00</published>
+        <updated>2025-03-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Charles Young
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://cyoung2024.github.io/firstpost/"/>
+        <id>https://cyoung2024.github.io/firstpost/</id>
+        
+        <content type="html" xml:base="https://cyoung2024.github.io/firstpost/">&lt;p&gt;I&#x27;m not much of a writer, but I&#x27;d like to get better. Plus, I need a place to document all the cool stuff I like to do. Maybe it won&#x27;t be that cool to others, but it&#x27;ll be neat to look back on.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-is-this-site-built&quot;&gt;How is this site built?&lt;&#x2F;h2&gt;
+&lt;p&gt;I&#x27;m using &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt; to take what I write in Markdown and render it as a static site. I&#x27;m too lazy to work with CSS, and it has some nice &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;st1020&#x2F;kita&quot;&gt;themes&lt;&#x2F;a&gt;. The workflow is straightforward, which is what I&#x27;m looking for. I want the process of creating and uploading new entries to be super simple and low-effort, so it won&#x27;t discourage me from writing.&lt;&#x2F;p&gt;
+&lt;p&gt;I don&#x27;t plan on having much more than a blog here, so it should work. I&#x27;ll throw anything else I want on a subdomain I guess.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;that-s-all&quot;&gt;That&#x27;s all&lt;&#x2F;h2&gt;
+&lt;p&gt;I&#x27;ll probably share this site with a few folks to keep myself motivated to use it. Might be a good place to post what I&#x27;m learning about in the Word as well. We&#x27;ll see!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
