@@ -17,3 +17,4 @@ jobs:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Or if publishing to the same repo, use the automatic token
           #TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          #now with perms
