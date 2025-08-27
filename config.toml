@@ -112,6 +112,10 @@ name = "Tags"
 url = "$BASE_URL/tags"
 
 # The page footer options.
+[extra.footer]
+since = ""
+license = ""
+license_url = ""
 
 # The giscus comment options, only available when comment is enabled.
 [extra.giscus]
