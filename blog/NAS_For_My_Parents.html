@@ -2,11 +2,25 @@
 <html lang="en">
 
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>NAS For My Parents</title>
+	<link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-	<div class="container">
+	<nav>
+		<a class="wordmark" href="/">charles-young.com</a>
+		<ul>
+			<li><a href="/blog/" class="current">blog</a></li>
+			<li><a href="/links.html">links</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<h1>NAS For My Parents</h1>
+		<p class="post-meta"><time datetime="2026-01-06">Jan 06, 2026</time></p>
+
         <p>My parents have a ton a photos, and my dad is tired of using cloud storage. He doesn't like paying for it, and he doesn't like the idea of depending on Apple for all the storage. Mom's phone is constantly full, and she wants a better way of managing and deleting photos she doesn't want. With a bunch of free time after breaking my collarbone before Christmas, I decided to set up a NAS for them.</p>
 		<p>I don't want to spend much time maintaining it, and I want my dad to be able to handle the backup process so he feels comfortable. So, I spent way too much money and picked up a <a href="https://nas.ugreen.com/products/ugreen-nasync-dxp2800-nas-storage">UGREEN NASync DXP2800</a> and 2 8TB HDDs.</p>
 		<h2>Setup</h2>
@@ -15,8 +29,14 @@
 		<p>Then it was time to gather all the photos. I struggled immensely with our old Mac running macOS Sierra with a 2.5 GHz i5 and 4GB of 1333 MHz DDR3 RAM. There were so many photos stored in so many locations, and copying each of them onto an external drive took hours. Finder and the Photos app are so retarded that I had to resort to just copying ~/Documents, ~/Movies, ~/Pictures, and ~/Desktop from the terminal. Once I had them on the external drive, I plugged it into my laptop and uploaded everything to Immich.</p>
 		<p>Dad pulled out a dozen random SD cards, two old laptops, and an old MacBook. I ripped the photos from each and uploaded to immich.</p>
 		<p>Next was iCloud.</p>
-		
-	</div>
+
+	</main>
+
+	<footer>
+		<div>
+			<div>© 2026 Charles Young</div>
+		</div>
+	</footer>
 </body>
 
 </html>
