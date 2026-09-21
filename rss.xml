@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+	<title>Charles Young</title>
+	<link>https://charles-young.com/blog/</link>
+	<description>Blog posts from charles-young.com</description>
+	<language>en-us</language>
+	<atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://charles-young.com/rss.xml" rel="self" type="application/rss+xml"/>
+	<item>
+		<title>New Year New Site</title>
+		<link>https://charles-young.com/blog/New_Year_New_Site</link>
+		<guid>https://charles-young.com/blog/New_Year_New_Site</guid>
+		<pubDate>Mon, 05 Jan 2026 00:00:00 GMT</pubDate>
+	</item>
+	<item>
+		<title>Graphene OS</title>
+		<link>https://charles-young.com/blog/Graphene_OS</link>
+		<guid>https://charles-young.com/blog/Graphene_OS</guid>
+		<pubDate>Tue, 26 Aug 2025 00:00:00 GMT</pubDate>
+	</item>
+	<item>
+		<title>First Post</title>
+		<link>https://charles-young.com/blog/First_Post</link>
+		<guid>https://charles-young.com/blog/First_Post</guid>
+		<pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
+	</item>
+</channel>
+</rss>
