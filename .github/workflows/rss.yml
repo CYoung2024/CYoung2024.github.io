@@ -1,0 +1,37 @@
+name: Update RSS feed
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - blog/index.html
+      - scripts/generate_rss.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate rss.xml
+        run: python3 scripts/generate_rss.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- rss.xml; then
+            echo "rss.xml is already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rss.xml
+          git commit -m "Update rss.xml [skip ci]"
+          git push
