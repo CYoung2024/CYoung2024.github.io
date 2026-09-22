@@ -7,6 +7,12 @@
 	<language>en-us</language>
 	<atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://charles-young.com/rss.xml" rel="self" type="application/rss+xml"/>
 	<item>
+		<title>My Credit Card Stack</title>
+		<link>https://charles-young.com/blog/My_Credit_Card_Stack</link>
+		<guid>https://charles-young.com/blog/My_Credit_Card_Stack</guid>
+		<pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+	</item>
+	<item>
 		<title>New Year New Site</title>
 		<link>https://charles-young.com/blog/New_Year_New_Site</link>
 		<guid>https://charles-young.com/blog/New_Year_New_Site</guid>
