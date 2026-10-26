@@ -7,6 +7,12 @@
 	<language>en-us</language>
 	<atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://charles-young.com/rss.xml" rel="self" type="application/rss+xml"/>
 	<item>
+		<title>CleanYourTV</title>
+		<link>https://charles-young.com/blog/CleanYourTV</link>
+		<guid>https://charles-young.com/blog/CleanYourTV</guid>
+		<pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+	</item>
+	<item>
 		<title>My Credit Card Stack</title>
 		<link>https://charles-young.com/blog/My_Credit_Card_Stack</link>
 		<guid>https://charles-young.com/blog/My_Credit_Card_Stack</guid>
