@@ -1,3 +1,27 @@
+@font-face {
+	font-family: "Iosevka Extended";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("/fonts/iosevka-extended-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Iosevka Extended";
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url("/fonts/iosevka-extended-400-italic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Iosevka Extended";
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url("/fonts/iosevka-extended-700-normal.woff2") format("woff2");
+}
+
 :root {
 	--bg: #ffffff;
 	--body: oklch(37.3% 0.034 259.733);   /* paragraph text  */
@@ -44,7 +68,7 @@ body {
 	flex-direction: column;
 	background: var(--bg);
 	color: var(--body);
-	font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-family: "Iosevka Extended", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 	font-size: 1rem;
 	line-height: 1.75;
 	cursor: default;
@@ -134,7 +158,7 @@ main h6 {
 }
 
 main h1 {
-	font-weight: 800;
+	font-weight: 700;
 	margin: 0 0 0.889em;
 }
 
@@ -144,12 +168,12 @@ main h2 {
 }
 
 main h3 {
-	font-weight: 600;
+	font-weight: 700;
 	margin: 1.6em 0 0.6em;
 }
 
 main h4 {
-	font-weight: 600;
+	font-weight: 700;
 	margin: 1.5em 0 0.5em;
 }
 
@@ -159,13 +183,13 @@ main :is(h1, h2, h3, h4, h5, h6):target {
 
 main a {
 	color: var(--ink);
-	font-weight: 500;
+	font-weight: 400;
 	text-decoration: underline;
 }
 
 main strong {
 	color: var(--ink);
-	font-weight: 600;
+	font-weight: 700;
 }
 
 main ul,
@@ -210,7 +234,7 @@ main blockquote {
 	padding-inline-start: 1em;
 	border-inline-start: 0.25rem solid var(--rule);
 	font-style: italic;
-	font-weight: 500;
+	font-weight: 400;
 	color: var(--ink);
 }
 
@@ -220,13 +244,13 @@ main img {
 }
 
 main :is(code, kbd, samp) {
-	font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+	font-family: "Iosevka Extended", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 	font-size: 0.875em;
 }
 
 main code {
 	color: var(--ink);
-	font-weight: 600;
+	font-weight: 700;
 }
 
 main pre {
